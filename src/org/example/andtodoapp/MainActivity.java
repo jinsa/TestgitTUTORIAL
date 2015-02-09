@@ -48,6 +48,7 @@ public class MainActivity extends ActionBarActivity {
 				{
 					if ((keyCode == KeyEvent.KEYCODE_DPAD_CENTER) ||(keyCode == KeyEvent.KEYCODE_ENTER))
 					{
+						System.out.println("hello");
 					todoitem.add(0, ed1.getText().toString());
 					aa.notifyDataSetChanged();
 					ed1.setText("");
